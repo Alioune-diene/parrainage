@@ -6,19 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/toggle.css">
-    <script src="js/64d58efce2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/toastinette.css">
-    <script type="text/javascript" src="js/toastinette.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/toggle.css">
+    <script src="../js/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/toastinette.css">
+    <script type="text/javascript" src="../js/toastinette.js"></script>
 </head>
 
-<body cible="parrains">
+<body cible="filleuls">
     <div class="container sign-up-mode">
         <div class="forms-container">
             <div class="signin-signup">
-                <!--LOGIN FORM-->
-                <form action="login.php" class="sign-in-form">
+                <form action="#" class="sign-in-form">
                     <h2 class="title">Se Connecter</h2>
                     <div class="input-field">
                         <i class="fas fa-user"></i>
@@ -30,10 +29,7 @@
                     </div>
                     <input type="submit" value="Se connecter" class="btn solid" />
                 </form>
-
-                <!--REGISTER FORM-->
-
-                <form action="#" id="sign-up-form" class="sign-up-form">
+                <form action="#" class="sign-up-form">
                     <h2 class="title">S'inscrire</h2>
                     <div class="input-field">
                         <i class="fas fa-user"></i>
@@ -56,10 +52,12 @@
                         <i class="fa fa-users"></i>
                         <select name="classe" required>
                             <option value="" disabled selected>Choisir votre classe</option>
-                            <option value="DSTI2A">DSTI2A</option>
-                            <option value="DSTI2B">DSTI2B</option>
-                            <option value="DSTI2C">DSTI2C</option>
-                            <option value="DSTTR2">DSTTR2</option>
+                            <option value="DSTI1A">DSTI1A</option>
+                            <option value="DSTI1B">DSTI1B</option>
+                            <option value="DSTI1C">DSTI1C</option>
+                            <option value="DSTI1D">DSTI1D</option>
+                            <option value="DSTTR1A">DSTTR1A</option>
+                            <option value="DSTTR1B">DSTTR1B</option>
                         </select>
                     </div>
                     <div class="input-field">
@@ -82,7 +80,7 @@
                         S'inscrire
                     </button>
                 </div>
-                <img src="img/log.svg" class="image" alt="" />
+                <img src="../img/log.svg" class="image" alt="" />
             </div>
             <div class="panel right-panel">
                 <div class="content">
@@ -94,7 +92,7 @@
                         Se Connecter
                     </button>
                 </div>
-                <img src="img/register.svg" class="image" alt="" />
+                <img src="../img/register.svg" class="image" alt="" />
             </div>
         </div>
         <div class="theme-toggle">
@@ -107,10 +105,9 @@
         </div>
     </div>
 
-    <script src="js/main.js"></script>
-    <script src="js/async.js"></script>
-    <script src="js/toggle.js"></script>
-    <script src="js/validation.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/toggle.js"></script>
+    <script src="../js/validation.js"></script>
 </body>
 
 </html>
