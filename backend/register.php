@@ -28,8 +28,8 @@ if ($smt->rowCount() > 0) {
                 if (in_array($classe, $classe_list)) {
                     if (strlen($passwd) > 8) {
                         $passwd = password_hash($passwd, PASSWORD_DEFAULT);
-                        $smt = $conn->prepare("INSERT INTO parrains_inf (prenom, nom, telephone, email, classe, passwd) VALUES (?, ?, ?, ?, ?, ?)");
-                        $smt->execute([$prenom, $nom, $telephone, $email, $classe, $passwd]);
+                        $smt = $conn->prepare("INSERT INTO parrains_inf (prenom, nom, telephone, email, classe, passwd, is_admin) VALUES (?, ?, ?, ?, ?, ?, ?)");
+                        $smt->execute([$prenom, $nom, $telephone, $email, $classe, $passwd, 0]);
 
                         if ($smt) {
                                 $status = 1;
